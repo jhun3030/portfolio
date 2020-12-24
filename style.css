@@ -355,4 +355,34 @@ a:hover {
 }
 
 /* Work */
-#work
+.category__btn {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  margin: 0;
+  padding: 8px 48px;
+  border: 1px solid #73aace;
+  border-radius: 4px;
+  margin-bottom: 40px;
+}
+
+.category__count {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  color: #fff;
+  background-color: #73aace;
+  border-radius: 50%;
+  line-height: 24px;
+  margin-left: 5px;
+}
+
+.work__projects {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.project img {
+  display: inline-block;
+  width: 250px;
+}
